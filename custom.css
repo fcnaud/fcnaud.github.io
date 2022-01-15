@@ -1,0 +1,45 @@
+@font-face {
+  font-family: ZpixReviewLocal;
+  src: url(./zpix.woff2?v2021-03-21);
+}
+
+html, body, span, p, a h1, h2, h3 {
+  font-family: ZpixReviewLocal;
+  font-size: 1rem;
+}
+
+html {
+  font-size: 24px;
+  -webkit-font-smoothing: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+
+.item-list {
+  display: inline-flex;
+  flex-direction: column;
+  width: 768px;
+
+}
+
+.item {
+  display: inline-flex;
+  flex-direction: column;
+  height: 72px;
+  line-height: 1rem;
+}
+
+.item_text_secondary {
+  font-size: 0.8rem;
+  margin: 0 0.2rem;
+  color: #7e7e7e;
+}
