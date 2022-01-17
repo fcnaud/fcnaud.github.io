@@ -25,10 +25,8 @@ a, a:hover {
 
 
 .item-list {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  width: 768px;
-
 }
 
 .item {
